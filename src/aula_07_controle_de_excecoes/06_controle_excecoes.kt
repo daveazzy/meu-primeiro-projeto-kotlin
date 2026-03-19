@@ -31,4 +31,8 @@ fun main() {
     } finally {
         println("Aqui temos o finally.")
     }
+
+
+    // eu posso lançar um throw antes do catch.
+    // a ordem dos catch importa
 }
