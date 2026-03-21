@@ -33,4 +33,13 @@ fun main() {
     println(mutableMap)
 
     // os metodos sao basicamente os mesmo para todas as colecoes
+
+    // -----------------------------------------------------------------------
+
+    val hashmap = hashMapOf(1 to "Kotlin", 2 to "Java", 3 to "typescript")
+    val hashSet = hashSetOf(1,2,3)
+
+    // para hashSet e hashMap, ambos sao mutaives.
+    // eles armazenam apenas elementos unicos.
+    // a principal vantagem do uso dos hash é ganho em desempenho de codigo
 }
