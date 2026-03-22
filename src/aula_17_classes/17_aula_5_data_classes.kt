@@ -2,7 +2,7 @@ package aula_17_classes
 
 class User(val name: String, val age: Int)
 
-// uma data class precisa ter ao menos uma propriedade para poder existir
+// uma data class precisa ter ao menos uma propriedade para poder existir. nao pode ser extendida
 data class UserDataClass(val name: String, val age: Int)
 
 fun main() {
