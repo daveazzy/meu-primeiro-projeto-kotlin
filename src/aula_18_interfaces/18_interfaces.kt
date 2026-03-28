@@ -49,7 +49,7 @@ class WordPrinter: Printer, TextConverter {
         get() = "WORD"
 
     override fun convert(text: String, printerType: String): String {
-        println("PDF converting: $text to $printerType")
+        println("Word converting: $text to $printerType")
         return text
     }
 
