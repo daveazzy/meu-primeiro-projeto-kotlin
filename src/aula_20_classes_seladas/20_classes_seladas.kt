@@ -5,6 +5,7 @@ package aula_20_classes_seladas
 
 sealed class Result { // estado
     // sub estados
+    //                                             se usa os parenteses porque está instanciando
     data class Success (val data: String) : Result()
     data class Error (val exception: Exception): Result()
     data object Loading : Result()
@@ -30,6 +31,29 @@ object Database {
     fun insertContact(contact: String): Result {
         return Result.Error(exception = IllegalArgumentException("O contato a ser inserido possui caracteres invalidos"))
     }
+}
+
+//interface selada
+sealed interface Animal {
+    data class Dog(val breed: String) : Animal {
+        // acessando x e mudando seu valor apenas para cachorro
+        override val x: Int
+            get() = super.x * 2
+
+        override fun sound(): String {
+            return "au au"
+        }
+    }
+
+    data class Cat(val color: String): Animal {
+        override fun sound(): String {
+            return "miau"
+        }
+    }
+
+    fun sound(): String
+    val x: Int
+        get() = 10
 }
 fun main () {
     val contacts: Result = Database.getContacts()
