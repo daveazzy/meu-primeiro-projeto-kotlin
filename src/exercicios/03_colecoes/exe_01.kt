@@ -1,4 +1,4 @@
-package exercicios.colecoes
+package exercicios.`03_colecoes`
 
 fun main () {
     val diasSemana: Array<String> = arrayOf("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado")

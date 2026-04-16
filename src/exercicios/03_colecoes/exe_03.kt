@@ -1,4 +1,4 @@
-package exercicios.colecoes
+package exercicios.`03_colecoes`
 
 fun main () {
     val array: Array<Int> = arrayOf(5, 3, 8, 1, 9, 2)

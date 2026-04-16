@@ -1,4 +1,4 @@
-package exercicios.colecoes
+package exercicios.`03_colecoes`
 
 fun main () {
     val impar: Array<Int> = arrayOf(1,3,5,7,9)

@@ -1,7 +1,7 @@
 package aula_10_colecoes
 
 fun main() {
-    // set vai gera ruma coleççao de elementos unicos. ele nao permite numeros duplicados e nao permite o acesso ao indice direto
+    // set vai gerar uma coleççao de elementos unicos. ele nao permite numeros duplicados e nao permite o acesso ao indice direto
 
     val set = setOf(1, 2, 3, 2)
 

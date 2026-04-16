@@ -1,4 +1,4 @@
-package exercicios.colecoes
+package exercicios.`03_colecoes`
 
 fun main () {
     val lista = mutableListOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)

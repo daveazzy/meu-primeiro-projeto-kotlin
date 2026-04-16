@@ -1,4 +1,4 @@
-package exercicios.colecoes
+package exercicios.`03_colecoes`
 
 fun main () {
     val lista = listOf("Ana", "Bruno", "Carlos", "Amanda", "Daniel")
