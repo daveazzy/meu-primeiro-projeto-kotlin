@@ -11,8 +11,6 @@ open class Animal (val name: String = "Desconhecido") {
 }
 
 class Dog(override val age: Int): Animal (name = "Cachorro") {
-
-
     override fun sound  () {
         println("$name is barking")
     }
